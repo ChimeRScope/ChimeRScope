@@ -37,7 +37,7 @@ function HideTooltip(evt)
 		<rect x="0" y="0" width="3" height="4" style="stroke:none; fill:blue;" />
 	</pattern>
 </defs>
-<g id="Canvas" transform="scale(0.25,0.25)">
+<g id="Canvas" transform="scale(1,1)">
 <text class="tooltip" id="tooltip" x="0" y="0" visibility="hidden">Tooltip</text>
 <rect x="60.0" y="60.0" width="40.0" height="100.0" fill="rgb(227,230,195)" stroke="rgb(227,230,195)" stroke-width="1"/>
 <rect x="60.0" y="160.0" width="40.0" height="500.0" fill="rgb(230, 180, 80)" stroke="rgb(230, 180, 80)" stroke-width="1"/>
