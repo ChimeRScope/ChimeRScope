@@ -1,0 +1,1129 @@
+<svg width="3600" height="2400" onload="init(evt)" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>
+	.caption{
+	font-size: 50px;
+	font-family: Georgia, serif;
+}
+.tooltip{
+	font-size: 50px;
+}
+</style>
+<script type="text/ecmascript">
+<![CDATA[
+    	function init(evt)
+{
+if ( window.svgDocument == null )
+{
+svgDocument = evt.target.ownerDocument;
+}
+tooltip = svgDocument.getElementById('tooltip');
+    tooltip_bg = svgDocument.getElementById('tooltip_bg');
+}
+function ShowTooltip(evt, mouseovertext)
+{
+    tooltip.setAttributeNS(null,"x",100.0);
+    tooltip.setAttributeNS(null,"y",2400.0);
+    tooltip.firstChild.data = mouseovertext;    tooltip.setAttributeNS(null,"visibility","visible");}
+function HideTooltip(evt)
+{
+    tooltip.setAttributeNS(null,"visibility","hidden");}
+]]>
+</script>
+<defs>
+	<pattern id="diagonal-stripes-Gene1" x="0" y="0" width="8" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+		<rect x="0" y="0" width="3" height="4" style="stroke:none; fill:red;" />
+	</pattern>
+	<pattern id="diagonal-stripes-Gene2" x="0" y="0" width="8" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+		<rect x="0" y="0" width="3" height="4" style="stroke:none; fill:blue;" />
+	</pattern>
+</defs>
+<g id="Canvas" transform="scale(0.25,0.25)">
+<text class="tooltip" id="tooltip" x="0" y="0" visibility="hidden">Tooltip</text>
+<rect x="60.0" y="60.0" width="40.0" height="100.0" fill="rgb(227,230,195)" stroke="rgb(227,230,195)" stroke-width="1"/>
+<rect x="60.0" y="160.0" width="40.0" height="500.0" fill="rgb(230, 180, 80)" stroke="rgb(230, 180, 80)" stroke-width="1"/>
+<rect x="60.0" y="660.0" width="40.0" height="240.0" fill="rgb(217, 116, 43)" stroke="rgb(217, 116, 43)" stroke-width="1"/>
+<rect x="60.0" y="900.0" width="40.0" height="1440.0" fill="rgb(138, 151, 123)" stroke="rgb(138, 151, 123)" stroke-width="1"/>
+<rect x="100.0" y="60.0" width="3440.0" height="100.0" fill="rgb(240,240,240)" stroke="rgb(240,240,240)" stroke-width="1"/>
+<rect x="100.0" y="160.0" width="3440.0" height="500.0" fill="rgb(230, 230, 230)" stroke="rgb(230, 230, 230)" stroke-width="1"/>
+<rect x="100.0" y="660.0" width="3440.0" height="240.0" fill="rgb(240,240,240)" stroke="rgb(240,240,240)" stroke-width="1"/>
+<rect x="100.0" y="900.0" width="3440.0" height="14.693877551020408" fill="rgb(230, 230, 230)" stroke="rgb(230, 230, 230)" stroke-width="1"/>
+<rect x="100.0" y="2325.3061224489797" width="3440.0" height="14.69387755102025" fill="rgb(230, 230, 230)" stroke="rgb(230, 230, 230)" stroke-width="1"/>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:43:4088:12049_background">
+<rect x="100.0" y="914.6938775510204" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:43:4088:12049')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:55:7270:1989_background">
+<rect x="100.0" y="944.0816326530612" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:55:7270:1989')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:75:17656:7178_background">
+<rect x="100.0" y="973.469387755102" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:75:17656:7178')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:78:18794:13197_background">
+<rect x="100.0" y="1002.8571428571428" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:78:18794:13197')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:38:11194:20878_background">
+<rect x="100.0" y="1032.2448979591836" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:38:11194:20878')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:78:2295:17982_background">
+<rect x="100.0" y="1061.6326530612246" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:78:2295:17982')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:94:5119:13988_background">
+<rect x="100.0" y="1091.0204081632653" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:94:5119:13988')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:118:13534:11442_background">
+<rect x="100.0" y="1120.4081632653063" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:118:13534:11442')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:114:4491:8640_background">
+<rect x="100.0" y="1149.795918367347" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:114:4491:8640')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:70:18953:2092_background">
+<rect x="100.0" y="1179.1836734693877" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:70:18953:2092')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:73:18587:12717_background">
+<rect x="100.0" y="1208.5714285714287" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:73:18587:12717')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:97:17833:1103_background">
+<rect x="100.0" y="1237.9591836734694" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:97:17833:1103')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:103:2656:17774_background">
+<rect x="100.0" y="1267.3469387755104" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:103:2656:17774')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:112:6876:17068_background">
+<rect x="100.0" y="1296.734693877551" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:112:6876:17068')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:27:13324:1135_background">
+<rect x="100.0" y="1326.122448979592" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:27:13324:1135')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:36:18480:15749_background">
+<rect x="100.0" y="1355.5102040816328" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:36:18480:15749')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:9:4767:10494_background">
+<rect x="100.0" y="1384.8979591836735" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:9:4767:10494')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:28:2095:11415_background">
+<rect x="100.0" y="1414.2857142857144" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:28:2095:11415')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:32:18402:16059_background">
+<rect x="100.0" y="1443.6734693877552" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:32:18402:16059')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:77:1283:6062_background">
+<rect x="100.0" y="1473.061224489796" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:77:1283:6062')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:42:6954:3655_background">
+<rect x="100.0" y="1502.4489795918369" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:42:6954:3655')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:77:17729:7993_background">
+<rect x="100.0" y="1531.8367346938776" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:77:17729:7993')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:100:6290:20114_background">
+<rect x="100.0" y="1561.2244897959183" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:100:6290:20114')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:112:10678:15279_background">
+<rect x="100.0" y="1590.6122448979593" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:112:10678:15279')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:64:6210:6186_background">
+<rect x="100.0" y="1620.0000000000002" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:64:6210:6186')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:62:17486:4512_background">
+<rect x="100.0" y="1649.387755102041" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:62:17486:4512')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:78:18099:9554_background">
+<rect x="100.0" y="1678.7755102040817" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:78:18099:9554')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:10:9811:12690_background">
+<rect x="100.0" y="1708.1632653061226" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:10:9811:12690')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:28:17502:5399_background">
+<rect x="100.0" y="1737.5510204081634" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:28:17502:5399')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:51:19692:10263_background">
+<rect x="100.0" y="1766.938775510204" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:51:19692:10263')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:59:2166:1864_background">
+<rect x="100.0" y="1796.326530612245" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:59:2166:1864')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:84:9043:15013_background">
+<rect x="100.0" y="1825.7142857142858" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:84:9043:15013')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:33:9587:2432_background">
+<rect x="100.0" y="1855.1020408163265" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:33:9587:2432')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:39:14180:8847_background">
+<rect x="100.0" y="1884.4897959183675" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:39:14180:8847')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:94:7901:7557_background">
+<rect x="100.0" y="1913.8775510204084" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:94:7901:7557')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:107:5941:13203_background">
+<rect x="100.0" y="1943.2653061224491" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:107:5941:13203')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:16:15519:8443_background">
+<rect x="100.0" y="1972.6530612244899" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:16:15519:8443')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:8:9431:17951_background">
+<rect x="100.0" y="2002.0408163265306" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:8:9431:17951')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:28:17486:5409_background">
+<rect x="100.0" y="2031.4285714285716" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:28:17486:5409')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:42:18293:7663_background">
+<rect x="100.0" y="2060.816326530612" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:42:18293:7663')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:57:2812:14093_background">
+<rect x="100.0" y="2090.204081632653" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:57:2812:14093')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:112:9287:19589_background">
+<rect x="100.0" y="2119.5918367346935" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:112:9287:19589')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:18:1724:8403_background">
+<rect x="100.0" y="2148.9795918367345" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:18:1724:8403')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:52:3313:18700_background">
+<rect x="100.0" y="2178.3673469387754" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:52:3313:18700')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:100:13672:12914_background">
+<rect x="100.0" y="2207.755102040816" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:100:13672:12914')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:7:6154:16677_background">
+<rect x="100.0" y="2237.1428571428573" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:7:6154:16677')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:20:2577:6326_background">
+<rect x="100.0" y="2266.530612244898" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:20:2577:6326')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:25:9811:5818_background">
+<rect x="100.0" y="2295.9183673469383" width="3440.0" height="29.387755102040817" fill="rgb(230, 230, 230)" stroke-width="none" onmousemove="ShowTooltip(evt, 'HWUSI-EAS1759:29:FC64LVMAAXX:6:25:9811:5818')" onmouseout="HideTooltip(evt)"/>
+<set attributeName="opacity" from="0" to="0.8" begin="mouseover" end="mouseout"/>
+</g>
+<g id="Track1" transform="translate(203.2,210.0) scale(0.444542205114105,1.0)">
+	<g id="Gene1">
+		<g id="NM_031203_track1">
+			<rect x="-1.0" y="0.0" width="193.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #1 chr19+:8444919-8445111')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M192.0 10.0 l40.0 0" />
+			<rect x="232.0" y="0.0" width="170.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #2 chr19+:8455405-8455574')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M402.0 10.0 l40.0 0" />
+			<rect x="442.0" y="0.0" width="53.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #3 chr19+:8462529-8462581')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M495.0 10.0 l40.0 0" />
+			<rect x="535.0" y="0.0" width="8.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #4 chr19+:8463497-8463504')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M543.0 10.0 l40.0 0" />
+			<rect x="583.0" y="0.0" width="94.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #5 chr19+:8463593-8463686')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M677.0 10.0 l40.0 0" />
+			<rect x="717.0" y="0.0" width="39.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #6 chr19+:8465324-8465362')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M756.0 10.0 l117.0 0" />
+			<rect x="873.0" y="0.0" width="36.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #7 chr19+:8465480-8465515')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M909.0 10.0 l40.0 0" />
+			<rect x="949.0" y="0.0" width="154.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #8 chr19+:8466235-8466388')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M1103.0 10.0 l40.0 0" />
+			<rect x="1143.0" y="0.0" width="50.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #9 chr19+:8467535-8467584')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M1193.0 10.0 l40.0 0" />
+			<rect x="1233.0" y="0.0" width="61.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #10 chr19+:8468774-8468834')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M1294.0 10.0 l40.0 0" />
+			<rect x="1334.0" y="0.0" width="102.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #11 chr19+:8471326-8471427')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M1436.0 10.0 l40.0 0" />
+			<rect x="1476.0" y="0.0" width="45.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #12 chr19+:8473664-8473708')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M1521.0 10.0 l40.0 0" />
+			<rect x="1561.0" y="0.0" width="78.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #13 chr19+:8474167-8474244')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M1639.0 10.0 l40.0 0" />
+			<rect x="1679.0" y="0.0" width="54.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #14 chr19+:8483158-8483211')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M1733.0 10.0 l40.0 0" />
+			<rect x="1773.0" y="0.0" width="803.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #15 chr19+:8485603-8486405')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M2576.0 10.0 l40.0 0" />
+			<rect x="2616.0" y="0.0" width="52.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #16 chr19+:8487024-8487075')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M2668.0 10.0 l40.0 0" />
+			<rect x="2708.0" y="0.0" width="428.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_031203	Exon #17 chr19+:8488691-8489118')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>		</g>
+		<g id="NM_005968_track1">
+			<rect x="-1.0" y="30.0" width="193.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #1 chr19+:8444919-8445111')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M192.0 40.0 l40.0 0" />
+			<rect x="232.0" y="30.0" width="170.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #2 chr19+:8455405-8455574')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M402.0 40.0 l40.0 0" />
+			<rect x="442.0" y="30.0" width="53.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #3 chr19+:8462529-8462581')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M495.0 40.0 l40.0 0" />
+			<rect x="535.0" y="30.0" width="8.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #4 chr19+:8463497-8463504')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M543.0 40.0 l40.0 0" />
+			<rect x="583.0" y="30.0" width="94.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #5 chr19+:8463593-8463686')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M677.0 40.0 l40.0 0" />
+			<rect x="717.0" y="30.0" width="192.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #6 chr19+:8465324-8465515')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M909.0 40.0 l40.0 0" />
+			<rect x="949.0" y="30.0" width="154.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #7 chr19+:8466235-8466388')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M1103.0 40.0 l40.0 0" />
+			<rect x="1143.0" y="30.0" width="50.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #8 chr19+:8467535-8467584')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M1193.0 40.0 l40.0 0" />
+			<rect x="1233.0" y="30.0" width="61.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #9 chr19+:8468774-8468834')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M1294.0 40.0 l40.0 0" />
+			<rect x="1334.0" y="30.0" width="102.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #10 chr19+:8471326-8471427')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M1436.0 40.0 l40.0 0" />
+			<rect x="1476.0" y="30.0" width="45.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #11 chr19+:8473664-8473708')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M1521.0 40.0 l40.0 0" />
+			<rect x="1561.0" y="30.0" width="78.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #12 chr19+:8474167-8474244')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M1639.0 40.0 l40.0 0" />
+			<rect x="1679.0" y="30.0" width="54.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #13 chr19+:8483158-8483211')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M1733.0 40.0 l40.0 0" />
+			<rect x="1773.0" y="30.0" width="803.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #14 chr19+:8485603-8486405')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M2576.0 40.0 l40.0 0" />
+			<rect x="2616.0" y="30.0" width="52.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #15 chr19+:8487024-8487075')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M2668.0 40.0 l40.0 0" />
+			<rect x="2708.0" y="30.0" width="428.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005968	Exon #16 chr19+:8488691-8489118')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>		</g>
+	</g>
+	<g id="Gene2">
+		<g id="NM_001258207_track1">
+			<rect x="3296.0" y="0.0" width="344.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #1 chr19+:6772668-6773011')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M3640.0 10.0 l40.0 0" />
+			<rect x="3680.0" y="0.0" width="117.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #2 chr19+:6820702-6820818')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M3797.0 10.0 l40.0 0" />
+			<rect x="3837.0" y="0.0" width="59.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #3 chr19+:6821622-6821680')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M3896.0 10.0 l40.0 0" />
+			<rect x="3936.0" y="0.0" width="69.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #4 chr19+:6821791-6821859')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4005.0 10.0 l40.0 0" />
+			<rect x="4045.0" y="0.0" width="109.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #5 chr19+:6822221-6822329')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4154.0 10.0 l176.0 0" />
+			<rect x="4330.0" y="0.0" width="69.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #6 chr19+:6825053-6825121')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4399.0 10.0 l40.0 0" />
+			<rect x="4439.0" y="0.0" width="104.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #7 chr19+:6825303-6825406')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4543.0 10.0 l40.0 0" />
+			<rect x="4583.0" y="0.0" width="100.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #8 chr19+:6826612-6826711')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4683.0 10.0 l40.0 0" />
+			<rect x="4723.0" y="0.0" width="96.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #9 chr19+:6828076-6828171')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4819.0 10.0 l40.0 0" />
+			<rect x="4859.0" y="0.0" width="69.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #10 chr19+:6828419-6828487')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4928.0 10.0 l40.0 0" />
+			<rect x="4968.0" y="0.0" width="87.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #11 chr19+:6828622-6828708')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5055.0 10.0 l40.0 0" />
+			<rect x="5095.0" y="0.0" width="86.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #12 chr19+:6828815-6828900')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5181.0 10.0 l40.0 0" />
+			<rect x="5221.0" y="0.0" width="133.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #13 chr19+:6829786-6829918')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5354.0 10.0 l40.0 0" />
+			<rect x="5394.0" y="0.0" width="110.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #14 chr19+:6832091-6832200')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5504.0 10.0 l40.0 0" />
+			<rect x="5544.0" y="0.0" width="102.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #15 chr19+:6833184-6833285')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5646.0 10.0 l40.0 0" />
+			<rect x="5686.0" y="0.0" width="98.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #16 chr19+:6833528-6833625')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5784.0 10.0 l40.0 0" />
+			<rect x="5824.0" y="0.0" width="23.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #17 chr19+:6833711-6833733')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5847.0 10.0 l40.0 0" />
+			<rect x="5887.0" y="0.0" width="46.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #18 chr19+:6833908-6833953')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5933.0 10.0 l40.0 0" />
+			<rect x="5973.0" y="0.0" width="137.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #19 chr19+:6836432-6836568')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6110.0 10.0 l40.0 0" />
+			<rect x="6150.0" y="0.0" width="66.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #20 chr19+:6836985-6837050')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6216.0 10.0 l40.0 0" />
+			<rect x="6256.0" y="0.0" width="32.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #21 chr19+:6843135-6843166')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6288.0 10.0 l40.0 0" />
+			<rect x="6328.0" y="0.0" width="117.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #22 chr19+:6847998-6848114')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6445.0 10.0 l40.0 0" />
+			<rect x="6485.0" y="0.0" width="88.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #23 chr19+:6850670-6850757')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6573.0 10.0 l40.0 0" />
+			<rect x="6613.0" y="0.0" width="115.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #24 chr19+:6852965-6853079')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6728.0 10.0 l40.0 0" />
+			<rect x="6768.0" y="0.0" width="152.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #25 chr19+:6853947-6854098')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6920.0 10.0 l40.0 0" />
+			<rect x="6960.0" y="0.0" width="313.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258207	Exon #26 chr19+:6857054-6857366')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>		</g>
+		<g id="NM_001258206_track1">
+			<rect x="3296.0" y="30.0" width="344.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #1 chr19+:6772668-6773011')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M3640.0 40.0 l40.0 0" />
+			<rect x="3680.0" y="30.0" width="117.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #2 chr19+:6820702-6820818')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M3797.0 40.0 l40.0 0" />
+			<rect x="3837.0" y="30.0" width="59.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #3 chr19+:6821622-6821680')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M3896.0 40.0 l40.0 0" />
+			<rect x="3936.0" y="30.0" width="69.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #4 chr19+:6821791-6821859')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4005.0 40.0 l40.0 0" />
+			<rect x="4045.0" y="30.0" width="109.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #5 chr19+:6822221-6822329')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4154.0 40.0 l40.0 0" />
+			<rect x="4194.0" y="30.0" width="96.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #6 chr19+:6822419-6822514')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4290.0 40.0 l40.0 0" />
+			<rect x="4330.0" y="30.0" width="69.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #7 chr19+:6825053-6825121')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4399.0 40.0 l40.0 0" />
+			<rect x="4439.0" y="30.0" width="104.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #8 chr19+:6825303-6825406')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4543.0 40.0 l40.0 0" />
+			<rect x="4583.0" y="30.0" width="100.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #9 chr19+:6826612-6826711')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4683.0 40.0 l40.0 0" />
+			<rect x="4723.0" y="30.0" width="96.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #10 chr19+:6828076-6828171')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4819.0 40.0 l40.0 0" />
+			<rect x="4859.0" y="30.0" width="69.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #11 chr19+:6828419-6828487')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4928.0 40.0 l40.0 0" />
+			<rect x="4968.0" y="30.0" width="87.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #12 chr19+:6828622-6828708')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5055.0 40.0 l40.0 0" />
+			<rect x="5095.0" y="30.0" width="86.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #13 chr19+:6828815-6828900')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5181.0 40.0 l40.0 0" />
+			<rect x="5221.0" y="30.0" width="133.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #14 chr19+:6829786-6829918')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5354.0 40.0 l40.0 0" />
+			<rect x="5394.0" y="30.0" width="110.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #15 chr19+:6832091-6832200')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5504.0 40.0 l40.0 0" />
+			<rect x="5544.0" y="30.0" width="102.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #16 chr19+:6833184-6833285')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5646.0 40.0 l40.0 0" />
+			<rect x="5686.0" y="30.0" width="98.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #17 chr19+:6833528-6833625')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5784.0 40.0 l40.0 0" />
+			<rect x="5824.0" y="30.0" width="23.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #18 chr19+:6833711-6833733')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5847.0 40.0 l40.0 0" />
+			<rect x="5887.0" y="30.0" width="46.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #19 chr19+:6833908-6833953')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5933.0 40.0 l40.0 0" />
+			<rect x="5973.0" y="30.0" width="137.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #20 chr19+:6836432-6836568')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6110.0 40.0 l146.0 0" />
+			<rect x="6256.0" y="30.0" width="32.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #21 chr19+:6843135-6843166')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6288.0 40.0 l40.0 0" />
+			<rect x="6328.0" y="30.0" width="117.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #22 chr19+:6847998-6848114')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6445.0 40.0 l40.0 0" />
+			<rect x="6485.0" y="30.0" width="88.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #23 chr19+:6850670-6850757')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6573.0 40.0 l40.0 0" />
+			<rect x="6613.0" y="30.0" width="115.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #24 chr19+:6852965-6853079')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6728.0 40.0 l40.0 0" />
+			<rect x="6768.0" y="30.0" width="152.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #25 chr19+:6853947-6854098')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6920.0 40.0 l40.0 0" />
+			<rect x="6960.0" y="30.0" width="313.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_001258206	Exon #26 chr19+:6857054-6857366')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>		</g>
+		<g id="NM_005428_track1">
+			<rect x="3296.0" y="60.0" width="344.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #1 chr19+:6772668-6773011')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M3640.0 70.0 l40.0 0" />
+			<rect x="3680.0" y="60.0" width="117.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #2 chr19+:6820702-6820818')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M3797.0 70.0 l40.0 0" />
+			<rect x="3837.0" y="60.0" width="59.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #3 chr19+:6821622-6821680')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M3896.0 70.0 l40.0 0" />
+			<rect x="3936.0" y="60.0" width="69.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #4 chr19+:6821791-6821859')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4005.0 70.0 l40.0 0" />
+			<rect x="4045.0" y="60.0" width="109.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #5 chr19+:6822221-6822329')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4154.0 70.0 l40.0 0" />
+			<rect x="4194.0" y="60.0" width="96.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #6 chr19+:6822419-6822514')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4290.0 70.0 l40.0 0" />
+			<rect x="4330.0" y="60.0" width="69.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #7 chr19+:6825053-6825121')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4399.0 70.0 l40.0 0" />
+			<rect x="4439.0" y="60.0" width="104.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #8 chr19+:6825303-6825406')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4543.0 70.0 l40.0 0" />
+			<rect x="4583.0" y="60.0" width="100.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #9 chr19+:6826612-6826711')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4683.0 70.0 l40.0 0" />
+			<rect x="4723.0" y="60.0" width="96.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #10 chr19+:6828076-6828171')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4819.0 70.0 l40.0 0" />
+			<rect x="4859.0" y="60.0" width="69.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #11 chr19+:6828419-6828487')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M4928.0 70.0 l40.0 0" />
+			<rect x="4968.0" y="60.0" width="87.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #12 chr19+:6828622-6828708')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5055.0 70.0 l40.0 0" />
+			<rect x="5095.0" y="60.0" width="86.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #13 chr19+:6828815-6828900')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5181.0 70.0 l40.0 0" />
+			<rect x="5221.0" y="60.0" width="133.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #14 chr19+:6829786-6829918')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5354.0 70.0 l40.0 0" />
+			<rect x="5394.0" y="60.0" width="110.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #15 chr19+:6832091-6832200')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5504.0 70.0 l40.0 0" />
+			<rect x="5544.0" y="60.0" width="102.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #16 chr19+:6833184-6833285')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5646.0 70.0 l40.0 0" />
+			<rect x="5686.0" y="60.0" width="98.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #17 chr19+:6833528-6833625')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5784.0 70.0 l40.0 0" />
+			<rect x="5824.0" y="60.0" width="23.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #18 chr19+:6833711-6833733')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5847.0 70.0 l40.0 0" />
+			<rect x="5887.0" y="60.0" width="46.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #19 chr19+:6833908-6833953')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M5933.0 70.0 l40.0 0" />
+			<rect x="5973.0" y="60.0" width="137.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #20 chr19+:6836432-6836568')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6110.0 70.0 l40.0 0" />
+			<rect x="6150.0" y="60.0" width="66.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #21 chr19+:6836985-6837050')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6216.0 70.0 l40.0 0" />
+			<rect x="6256.0" y="60.0" width="32.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #22 chr19+:6843135-6843166')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6288.0 70.0 l40.0 0" />
+			<rect x="6328.0" y="60.0" width="117.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #23 chr19+:6847998-6848114')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6445.0 70.0 l40.0 0" />
+			<rect x="6485.0" y="60.0" width="88.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #24 chr19+:6850670-6850757')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6573.0 70.0 l40.0 0" />
+			<rect x="6613.0" y="60.0" width="115.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #25 chr19+:6852965-6853079')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6728.0 70.0 l40.0 0" />
+			<rect x="6768.0" y="60.0" width="152.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #26 chr19+:6853947-6854098')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>			<path stroke="black" d="M6920.0 70.0 l40.0 0" />
+			<rect x="6960.0" y="60.0" width="313.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1" onmousemove="ShowTooltip(evt, 'NM_005428	Exon #27 chr19+:6857054-6857366')" onmouseout="HideTooltip(evt)">
+<set attributeName="opacity" from="0" to="0.5" begin="mouseover" end="mouseout"/></rect>		</g>
+	</g>
+</g>
+<text text-anchor="end" x="306.4" y="125.0" fill=" red " style="font: 50px Arial">5'</text>
+<text text-anchor="start" x="1494.5288974429475" y="125.0" fill=" red " style="font: 50px Arial">3'</text>
+<text text-anchor="middle" x="900.4644487214737" y="125.0" fill="red" style="font: bold 50px Arial">HNRNPM</text>
+<text text-anchor="end" x="1772.0556502612044" y="125.0" fill=" blue " style="font: 50px Arial">5'</text>
+<text text-anchor="start" x="3333.6" y="125.0" fill=" blue " style="font: 50px Arial">3'</text>
+<text text-anchor="middle" x="2552.827825130602" y="125.0" fill="blue" style="font: bold 50px Arial">VAV1</text>
+<g id="track2N3_flipped_g1" transform="translate(1633.4201081081078,0) scale(-1, 1)">
+<g id="Track2" transform="translate(203.2,850.0) scale(1.7478918918918918,1.0)">
+	<g id="Gene1">
+			<rect x="-1.0" y="0.0" width="101.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1"/>
+			<path stroke="black" d="M100.0 10.0 l40.0 0" />
+			<rect x="140.0" y="0.0" width="53.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1"/>
+			<path stroke="black" d="M193.0 10.0 l40.0 0" />
+			<rect x="233.0" y="0.0" width="8.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1"/>
+			<path stroke="black" d="M241.0 10.0 l40.0 0" />
+			<rect x="281.0" y="0.0" width="94.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1"/>
+			<path stroke="black" d="M375.0 10.0 l40.0 0" />
+			<rect x="415.0" y="0.0" width="39.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1"/>
+			<path stroke="black" d="M454.0 10.0 l40.0 0" />
+			<rect x="494.0" y="0.0" width="36.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1"/>
+			<path stroke="black" d="M530.0 10.0 l40.0 0" />
+			<rect x="570.0" y="0.0" width="131.0" height="20.0" fill="url(#diagonal-stripes-Gene1)" stroke="black" stroke-width="1"/>
+	</g>
+</g>
+<g id="Track3" transform="translate(203.2,914.6938775510204) scale(1.7478918918918918,1.0)">
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:43:4088:12049#2">
+			<rect x="141.0" y="14.693877551020408" width="34.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:55:7270:1989#2">
+			<rect x="141.0" y="44.08163265306123" width="34.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:75:17656:7178#2">
+			<rect x="98.0" y="73.46938775510205" width="2.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M100.0 80.81632653061226 l40.0 0" />
+			<rect x="140.0" y="73.46938775510205" width="23.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:75:17656:7178#1">
+			<rect x="510.0" y="58.775510204081634" width="20.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M530.0 66.12244897959184 l40.0 0" />
+			<rect x="570.0" y="58.775510204081634" width="31.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:78:18794:13197#2">
+			<rect x="304.0" y="102.85714285714286" width="51.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:38:11194:20878#2">
+			<rect x="141.0" y="132.24489795918367" width="34.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:78:2295:17982#2">
+			<rect x="188.0" y="161.63265306122452" width="5.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M193.0 168.97959183673473 l40.0 0" />
+			<rect x="233.0" y="161.63265306122452" width="8.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M241.0 168.97959183673473 l40.0 0" />
+			<rect x="281.0" y="161.63265306122452" width="38.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:94:5119:13988#2">
+			<rect x="177.0" y="191.02040816326533" width="16.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M193.0 198.36734693877554 l40.0 0" />
+			<rect x="233.0" y="191.02040816326533" width="8.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M241.0 198.36734693877554 l40.0 0" />
+			<rect x="281.0" y="191.02040816326533" width="27.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:118:13534:11442#2">
+			<rect x="98.0" y="220.40816326530614" width="2.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M100.0 227.75510204081635 l40.0 0" />
+			<rect x="140.0" y="220.40816326530614" width="49.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:114:4491:8640#2">
+			<rect x="141.0" y="249.79591836734696" width="30.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:70:18953:2092#2">
+			<rect x="99.0" y="279.18367346938777" width="1.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M100.0 286.53061224489795 l40.0 0" />
+			<rect x="140.0" y="279.18367346938777" width="50.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:73:18587:12717#2">
+			<rect x="98.0" y="308.5714285714286" width="2.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M100.0 315.9183673469388 l40.0 0" />
+			<rect x="140.0" y="308.5714285714286" width="24.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:73:18587:12717#1">
+			<rect x="345.0" y="293.8775510204082" width="30.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M375.0 301.2244897959184 l40.0 0" />
+			<rect x="415.0" y="293.8775510204082" width="21.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:97:17833:1103#2">
+			<rect x="98.0" y="337.9591836734694" width="2.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M100.0 345.3061224489796 l40.0 0" />
+			<rect x="140.0" y="337.9591836734694" width="25.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:97:17833:1103#1">
+			<rect x="307.0" y="323.265306122449" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:103:2656:17774#2">
+			<rect x="141.0" y="367.34693877551024" width="51.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:112:6876:17068#2">
+			<rect x="188.0" y="396.734693877551" width="5.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M193.0 404.0816326530612 l40.0 0" />
+			<rect x="233.0" y="396.734693877551" width="8.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M241.0 404.0816326530612 l40.0 0" />
+			<rect x="281.0" y="396.734693877551" width="38.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:27:13324:1135#2">
+			<rect x="141.0" y="426.12244897959187" width="51.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:36:18480:15749#2">
+			<rect x="177.0" y="455.51020408163265" width="16.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M193.0 462.85714285714283 l40.0 0" />
+			<rect x="233.0" y="455.51020408163265" width="8.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M241.0 462.85714285714283 l40.0 0" />
+			<rect x="281.0" y="455.51020408163265" width="27.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:9:4767:10494#2">
+			<rect x="142.0" y="484.8979591836735" width="51.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:28:2095:11415#2">
+			<rect x="141.0" y="514.2857142857143" width="34.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:32:18402:16059#2">
+			<rect x="177.0" y="543.6734693877551" width="16.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M193.0 551.0204081632653 l40.0 0" />
+			<rect x="233.0" y="543.6734693877551" width="8.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M241.0 551.0204081632653 l40.0 0" />
+			<rect x="281.0" y="543.6734693877551" width="27.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:77:1283:6062#2">
+			<rect x="140.0" y="573.0612244897959" width="35.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:42:6954:3655#2">
+			<rect x="98.0" y="602.4489795918367" width="2.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M100.0 609.795918367347 l40.0 0" />
+			<rect x="140.0" y="602.4489795918367" width="14.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:42:6954:3655#1">
+			<rect x="435.0" y="587.7551020408164" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:77:17729:7993#2">
+			<rect x="177.0" y="631.8367346938775" width="16.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M193.0 639.1836734693877 l40.0 0" />
+			<rect x="233.0" y="631.8367346938775" width="8.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M241.0 639.1836734693877 l40.0 0" />
+			<rect x="281.0" y="631.8367346938775" width="27.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:100:6290:20114#2">
+			<rect x="166.0" y="661.2244897959183" width="27.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M193.0 668.5714285714286 l40.0 0" />
+			<rect x="233.0" y="661.2244897959183" width="8.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M241.0 668.5714285714286 l40.0 0" />
+			<rect x="281.0" y="661.2244897959183" width="16.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:112:10678:15279#2">
+			<rect x="141.0" y="690.6122448979592" width="34.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:64:6210:6186#2">
+			<rect x="141.0" y="720.0" width="51.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:62:17486:4512#2">
+			<rect x="371.0" y="749.3877551020408" width="4.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M375.0 756.7346938775511 l40.0 0" />
+			<rect x="415.0" y="749.3877551020408" width="39.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M454.0 756.7346938775511 l40.0 0" />
+			<rect x="494.0" y="749.3877551020408" width="8.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:78:18099:9554#2">
+			<rect x="173.0" y="778.7755102040816" width="20.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M193.0 786.1224489795918 l40.0 0" />
+			<rect x="233.0" y="778.7755102040816" width="8.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M241.0 786.1224489795918 l40.0 0" />
+			<rect x="281.0" y="778.7755102040816" width="23.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:10:9811:12690#2">
+			<rect x="171.0" y="808.1632653061224" width="22.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M193.0 815.5102040816327 l40.0 0" />
+			<rect x="233.0" y="808.1632653061224" width="8.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M241.0 815.5102040816327 l40.0 0" />
+			<rect x="281.0" y="808.1632653061224" width="21.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:28:17502:5399#2">
+			<rect x="415.0" y="837.5510204081633" width="39.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M454.0 844.8979591836735 l40.0 0" />
+			<rect x="494.0" y="837.5510204081633" width="1.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:51:19692:10263#2">
+			<rect x="331.0" y="866.9387755102041" width="44.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M375.0 874.2857142857143 l40.0 0" />
+			<rect x="415.0" y="866.9387755102041" width="7.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:59:2166:1864#2">
+			<rect x="141.0" y="896.3265306122448" width="51.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:84:9043:15013#2">
+			<rect x="325.0" y="925.7142857142857" width="50.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M375.0 933.0612244897959 l40.0 0" />
+			<rect x="415.0" y="925.7142857142857" width="1.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:33:9587:2432#2">
+			<rect x="192.0" y="955.1020408163265" width="1.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M193.0 962.4489795918367 l40.0 0" />
+			<rect x="233.0" y="955.1020408163265" width="8.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M241.0 962.4489795918367 l40.0 0" />
+			<rect x="281.0" y="955.1020408163265" width="42.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:39:14180:8847#2">
+			<rect x="98.0" y="984.4897959183673" width="2.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M100.0 991.8367346938776 l40.0 0" />
+			<rect x="140.0" y="984.4897959183673" width="10.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:39:14180:8847#1">
+			<rect x="305.0" y="969.795918367347" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:94:7901:7557#2">
+			<rect x="161.0" y="1013.8775510204082" width="32.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M193.0 1021.2244897959184 l40.0 0" />
+			<rect x="233.0" y="1013.8775510204082" width="8.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M241.0 1021.2244897959184 l40.0 0" />
+			<rect x="281.0" y="1013.8775510204082" width="11.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:107:5941:13203#2">
+			<rect x="175.0" y="1043.2653061224491" width="18.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M193.0 1050.6122448979593 l40.0 0" />
+			<rect x="233.0" y="1043.2653061224491" width="8.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M241.0 1050.6122448979593 l40.0 0" />
+			<rect x="281.0" y="1043.2653061224491" width="25.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:16:15519:8443#2">
+			<rect x="98.0" y="1072.6530612244899" width="2.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M100.0 1080.0 l40.0 0" />
+			<rect x="140.0" y="1072.6530612244899" width="10.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:16:15519:8443#1">
+			<rect x="141.0" y="1057.9591836734694" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:8:9431:17951#2">
+			<rect x="427.0" y="1102.0408163265306" width="27.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M454.0 1109.3877551020407 l40.0 0" />
+			<rect x="494.0" y="1102.0408163265306" width="23.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:28:17486:5409#2">
+			<rect x="415.0" y="1131.4285714285716" width="39.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M454.0 1138.7755102040817 l40.0 0" />
+			<rect x="494.0" y="1131.4285714285716" width="1.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:42:18293:7663#2">
+			<rect x="98.0" y="1160.8163265306123" width="2.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M100.0 1168.1632653061224 l40.0 0" />
+			<rect x="140.0" y="1160.8163265306123" width="22.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:42:18293:7663#1">
+			<rect x="305.0" y="1146.1224489795918" width="50.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:57:2812:14093#2">
+			<rect x="141.0" y="1190.2040816326532" width="28.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:112:9287:19589#2">
+			<rect x="141.0" y="1219.591836734694" width="35.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:18:1724:8403#1">
+			<rect x="190.0" y="1234.2857142857142" width="3.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M193.0 1241.6326530612243 l40.0 0" />
+			<rect x="233.0" y="1234.2857142857142" width="8.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M241.0 1241.6326530612243 l40.0 0" />
+			<rect x="281.0" y="1234.2857142857142" width="40.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:52:3313:18700#2">
+			<rect x="141.0" y="1278.3673469387757" width="51.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:100:13672:12914#2">
+			<rect x="171.0" y="1307.7551020408164" width="22.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M193.0 1315.1020408163265 l40.0 0" />
+			<rect x="233.0" y="1307.7551020408164" width="8.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M241.0 1315.1020408163265 l40.0 0" />
+			<rect x="281.0" y="1307.7551020408164" width="20.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:7:6154:16677#2">
+			<rect x="140.0" y="1337.1428571428573" width="51.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:20:2577:6326#2">
+			<rect x="98.0" y="1366.530612244898" width="2.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M100.0 1373.8775510204082 l40.0 0" />
+			<rect x="140.0" y="1366.530612244898" width="47.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:25:9811:5818#2">
+			<rect x="98.0" y="1395.9183673469388" width="2.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M100.0 1403.265306122449 l40.0 0" />
+			<rect x="140.0" y="1395.9183673469388" width="10.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:25:9811:5818#1">
+			<rect x="173.0" y="1381.2244897959183" width="20.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M193.0 1388.5714285714284 l40.0 0" />
+			<rect x="233.0" y="1381.2244897959183" width="8.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M241.0 1388.5714285714284 l40.0 0" />
+			<rect x="281.0" y="1381.2244897959183" width="23.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+</g>
+</g>
+<g id="track2N3_flipped_g2" transform="translate(5146.68281081081,0) scale(-1, 1)">
+<g id="Track2" transform="translate(203.2,850.0) scale(1.7478918918918918,1.0)">
+	<g id="Gene2">
+			<rect x="861.0" y="0.0" width="46.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1"/>
+			<path stroke="black" d="M907.0 10.0 l40.0 0" />
+			<rect x="947.0" y="0.0" width="137.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1"/>
+			<path stroke="black" d="M1084.0 10.0 l40.0 0" />
+			<rect x="1124.0" y="0.0" width="66.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1"/>
+			<path stroke="black" d="M1190.0 10.0 l40.0 0" />
+			<rect x="1230.0" y="0.0" width="32.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1"/>
+			<path stroke="black" d="M1262.0 10.0 l40.0 0" />
+			<rect x="1302.0" y="0.0" width="117.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1"/>
+			<path stroke="black" d="M1419.0 10.0 l40.0 0" />
+			<rect x="1459.0" y="0.0" width="88.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1"/>
+			<path stroke="black" d="M1547.0 10.0 l40.0 0" />
+			<rect x="1587.0" y="0.0" width="115.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1"/>
+			<path stroke="black" d="M1702.0 10.0 l40.0 0" />
+			<rect x="1742.0" y="0.0" width="107.0" height="20.0" fill="url(#diagonal-stripes-Gene2)" stroke="black" stroke-width="1"/>
+	</g>
+</g>
+<g id="Track3" transform="translate(203.2,914.6938775510204) scale(1.7478918918918918,1.0)">
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:43:4088:12049#2">
+			<rect x="1686.0" y="14.693877551020408" width="16.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1702.0 22.040816326530614 l40.0 0" />
+			<rect x="1742.0" y="14.693877551020408" width="1.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:43:4088:12049#1">
+			<rect x="1461.0" y="0.0" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:55:7270:1989#2">
+			<rect x="1686.0" y="44.08163265306123" width="16.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1702.0 51.42857142857143 l40.0 0" />
+			<rect x="1742.0" y="44.08163265306123" width="1.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:55:7270:1989#1">
+			<rect x="905.0" y="29.387755102040817" width="2.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M907.0 36.734693877551024 l40.0 0" />
+			<rect x="947.0" y="29.387755102040817" width="49.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:75:17656:7178#2">
+			<rect x="1674.0" y="73.46938775510205" width="25.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:78:18794:13197#1">
+			<rect x="1649.0" y="88.16326530612245" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:38:11194:20878#2">
+			<rect x="1686.0" y="132.24489795918367" width="16.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1702.0 139.59183673469389 l40.0 0" />
+			<rect x="1742.0" y="132.24489795918367" width="1.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:38:11194:20878#1">
+			<rect x="1528.0" y="117.55102040816327" width="19.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1547.0 124.89795918367348 l40.0 0" />
+			<rect x="1587.0" y="117.55102040816327" width="32.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:78:2295:17982#1">
+			<rect x="1651.0" y="146.9387755102041" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:94:5119:13988#1">
+			<rect x="1645.0" y="176.3265306122449" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:118:13534:11442#1">
+			<rect x="1545.0" y="205.71428571428572" width="2.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1547.0 213.06122448979593 l40.0 0" />
+			<rect x="1587.0" y="205.71428571428572" width="49.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:114:4491:8640#2">
+			<rect x="1682.0" y="249.79591836734696" width="20.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1702.0 257.14285714285717 l40.0 0" />
+			<rect x="1742.0" y="249.79591836734696" width="1.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:114:4491:8640#1">
+			<rect x="1339.0" y="235.10204081632654" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:70:18953:2092#1">
+			<rect x="1631.0" y="264.48979591836735" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:73:18587:12717#2">
+			<rect x="1675.0" y="308.5714285714286" width="25.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:97:17833:1103#2">
+			<rect x="1676.0" y="337.9591836734694" width="24.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:103:2656:17774#1">
+			<rect x="1522.0" y="352.6530612244898" width="25.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1547.0 360.0 l40.0 0" />
+			<rect x="1587.0" y="352.6530612244898" width="26.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:112:6876:17068#1">
+			<rect x="1629.0" y="382.0408163265306" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:27:13324:1135#1">
+			<rect x="1608.0" y="411.42857142857144" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:36:18480:15749#1">
+			<rect x="1510.0" y="440.81632653061223" width="37.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1547.0 448.1632653061224 l40.0 0" />
+			<rect x="1587.0" y="440.81632653061223" width="14.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:9:4767:10494#1">
+			<rect x="1638.0" y="470.2040816326531" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:28:2095:11415#2">
+			<rect x="1686.0" y="514.2857142857143" width="16.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1702.0 521.6326530612246 l40.0 0" />
+			<rect x="1742.0" y="514.2857142857143" width="1.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:28:2095:11415#1">
+			<rect x="1465.0" y="499.5918367346939" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:32:18402:16059#1">
+			<rect x="1474.0" y="528.9795918367347" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:77:1283:6062#2">
+			<rect x="1246.0" y="573.0612244897959" width="16.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:77:1283:6062#1">
+			<rect x="1018.0" y="558.3673469387755" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:42:6954:3655#2">
+			<rect x="1665.0" y="602.4489795918367" width="35.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:77:17729:7993#1">
+			<rect x="1545.0" y="617.1428571428571" width="2.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1547.0 624.4897959183673 l40.0 0" />
+			<rect x="1587.0" y="617.1428571428571" width="49.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:100:6290:20114#1">
+			<rect x="1638.0" y="646.530612244898" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:112:10678:15279#2">
+			<rect x="1686.0" y="690.6122448979592" width="16.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1702.0 697.9591836734694 l40.0 0" />
+			<rect x="1742.0" y="690.6122448979592" width="1.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:112:10678:15279#1">
+			<rect x="1524.0" y="675.9183673469388" width="23.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1547.0 683.265306122449 l40.0 0" />
+			<rect x="1587.0" y="675.9183673469388" width="28.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:64:6210:6186#1">
+			<rect x="1607.0" y="705.3061224489796" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:62:17486:4512#1">
+			<rect x="1648.0" y="734.6938775510205" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:78:18099:9554#1">
+			<rect x="1599.0" y="764.0816326530612" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:10:9811:12690#1">
+			<rect x="1643.0" y="793.469387755102" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:28:17502:5399#1">
+			<rect x="1648.0" y="822.8571428571429" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:51:19692:10263#1">
+			<rect x="1502.0" y="852.2448979591837" width="45.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1547.0 859.591836734694 l40.0 0" />
+			<rect x="1587.0" y="852.2448979591837" width="6.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:59:2166:1864#1">
+			<rect x="1619.0" y="881.6326530612245" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:84:9043:15013#1">
+			<rect x="1606.0" y="911.0204081632653" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:33:9587:2432#1">
+			<rect x="1638.0" y="940.4081632653061" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:39:14180:8847#2">
+			<rect x="1661.0" y="984.4897959183673" width="39.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:94:7901:7557#1">
+			<rect x="1476.0" y="999.1836734693878" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:107:5941:13203#1">
+			<rect x="1636.0" y="1028.5714285714287" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:16:15519:8443#2">
+			<rect x="1661.0" y="1072.6530612244899" width="39.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:8:9431:17951#1">
+			<rect x="1619.0" y="1087.3469387755101" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:28:17486:5409#1">
+			<rect x="1648.0" y="1116.734693877551" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:42:18293:7663#2">
+			<rect x="1673.0" y="1160.8163265306123" width="27.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:57:2812:14093#2">
+			<rect x="1680.0" y="1190.2040816326532" width="22.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1702.0 1197.5510204081634 l40.0 0" />
+			<rect x="1742.0" y="1190.2040816326532" width="1.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:57:2812:14093#1">
+			<rect x="1361.0" y="1175.5102040816328" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:112:9287:19589#2">
+			<rect x="1687.0" y="1219.591836734694" width="15.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1702.0 1226.938775510204 l40.0 0" />
+			<rect x="1742.0" y="1219.591836734694" width="1.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:112:9287:19589#1">
+			<rect x="1522.0" y="1204.8979591836735" width="25.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1547.0 1212.2448979591836 l40.0 0" />
+			<rect x="1587.0" y="1204.8979591836735" width="26.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:18:1724:8403#2">
+			<rect x="1658.0" y="1248.9795918367347" width="44.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1702.0 1256.3265306122448 l40.0 0" />
+			<rect x="1742.0" y="1248.9795918367347" width="4.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:52:3313:18700#1">
+			<rect x="1656.0" y="1263.6734693877552" width="46.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1702.0 1271.0204081632653 l40.0 0" />
+			<rect x="1742.0" y="1263.6734693877552" width="4.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:100:13672:12914#1">
+			<rect x="1523.0" y="1293.061224489796" width="24.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1547.0 1300.408163265306 l40.0 0" />
+			<rect x="1587.0" y="1293.061224489796" width="27.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:7:6154:16677#1">
+			<rect x="1509.0" y="1322.4489795918369" width="38.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+			<path stroke="black" d="M1547.0 1329.795918367347 l40.0 0" />
+			<rect x="1587.0" y="1322.4489795918369" width="13.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:20:2577:6326#1">
+			<rect x="1356.0" y="1351.8367346938776" width="51.0" height="14.693877551020408" fill="red" stroke="black" stroke-width="0.5"/>
+		</g>
+
+		<g id="HWUSI-EAS1759:29:FC64LVMAAXX:6:25:9811:5818#2">
+			<rect x="1661.0" y="1395.9183673469388" width="39.0" height="14.693877551020408" fill="green" stroke="black" stroke-width="0.5"/>
+		</g>
+</g>
+</g>
+<line x1="337.00720373934564" y1="310.0" x2="1430.220108108108" y2="830.0" style="stroke:rgb(0,0,0);stroke-width:1" />
+<line x1="682.8610393181193" y1="310.0" x2="203.2" y2="830.0" style="stroke:rgb(0,0,0);stroke-width:1" />
+<polyline points="337.00720373934564,310.0 1430.220108108108,830.0 203.2,830.0 682.8610393181193,310.0 337.00720373934564,310.0" style="fill:rgb(222,156,83);stroke:none;;fill-opacity:0.2" />
+<line x1="2820.219961506736" y1="310.0" x2="3436.7999999999997" y2="830.0" style="stroke:rgb(0,0,0);stroke-width:1" />
+<line x1="3258.9831179543576" y1="310.0" x2="1709.8828108108107" y2="830.0" style="stroke:rgb(0,0,0);stroke-width:1" />
+<polyline points="2820.219961506736,310.0 3436.7999999999997,830.0 1709.8828108108107,830.0 3258.9831179543576,310.0 2820.219961506736,310.0" style="fill:rgb(222,156,83);stroke:none;;fill-opacity:0.2" />
+</g>
+</svg>
